@@ -1,6 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-}
+  images: {
+    domains: ['rb.gy', 'localhost'],
+    dangerouslyAllowSVG: true,
+  },
+  webp: {
+    preset: 'default',
+    quality: 100,
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
