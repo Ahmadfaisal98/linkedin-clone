@@ -9,7 +9,6 @@ import { getProviders, signIn } from "next-auth/react";
 import HeaderLink from "../components/HeaderLink";
 
 function Home({ providers }) {
-  console.log({ providers });
   return (
     <div className="space-y-10">
       <Head>
